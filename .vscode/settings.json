@@ -1,0 +1,22 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "single",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "files.exclude": {
+    "**/*.js": false,
+    "**/*.js.map": true
+  },
+  "typescript.referencesCodeLens.enabled": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Light+",
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "formattingToggle.affects": ["formatOnPaste", "formatOnSave", "formatOnType"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
