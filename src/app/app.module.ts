@@ -16,6 +16,7 @@ import { EditAppareilComponent } from './edit-appareil/edit-appareil.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserService } from './services/user.service';
 import { NewUserComponent } from './new-user/new-user.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const appRoute: Routes = [
   {
@@ -67,6 +68,7 @@ const appRoute: Routes = [
     FormsModule,
     RouterModule.forRoot(appRoute),
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [AppareilService, AuthService, AuthGuard, UserService],
   bootstrap: [AppComponent],
